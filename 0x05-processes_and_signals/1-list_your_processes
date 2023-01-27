@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-# prints list of running process including tty
+# prints list of currently running process
 
-ps -auxf
+ps -faux
